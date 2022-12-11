@@ -6,3 +6,7 @@ CREATE TABLE employee (
     salary INT DEFAULT NULL,
     PRIMARY KEY (id)
 );
+
+INSERT INTO employee (name, salary) values
+('Rodrigo Guzmán', 100000),
+('Gastón Fernandez', 1000000)

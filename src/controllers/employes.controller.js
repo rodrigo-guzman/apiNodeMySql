@@ -1,6 +1,5 @@
-export const getEmployees = (req, res) => res.send('obteniendo empleados')
 
-export const createEmployees = (req, res) => res.send('creando empleados')
+export const getEmployees = (req, res) => res.send('obteniendo empleados')
 
 export const updateEmployees = (req, res) => res.send('actualizando empleados')
 

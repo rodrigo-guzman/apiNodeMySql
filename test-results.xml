@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.146" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-12-11T01:45:20" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Insert a employee: " timestamp="2022-12-11T01:45:20" tests="1" file="C:\Rodrigo\Node Js\practica\express-mysql\test\test.js" time="0.142" failures="0">
+    <testcase name="Insert a employee:  should insert a employee" time="0.137" classname="should insert a employee">
+    </testcase>
+  </testsuite>
+</testsuites>

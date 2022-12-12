@@ -1,4 +1,4 @@
-import { pool } from "../db.js"
+import { pool } from "../../data-access/db/db.js"
 
 export const createEmployees = async (req, res) => {
     const { name, salary } = req.body

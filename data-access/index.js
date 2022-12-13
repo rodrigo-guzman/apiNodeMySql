@@ -1,6 +1,6 @@
 //import * as models from './models'
 
-import { employeesModel } from './models/index.model'
+import { employeesModel } from '../models/index.model'
 
 import manageEmployees from './db/employees.db'
 

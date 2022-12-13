@@ -1,11 +1,8 @@
-import controller from '../use-cases/employees'
+import { createUseCase } from '../use-cases/employees';
 import makeExpressCallback from 'routes/make-callback';
 
-
-
 import { Router } from 'express'
-//import { getEmployees, updateEmployees, deleteEmployees } from '../controllers/employes.controller.js'
-import { createEmployees } from '../controllers/createEmployee.controller.js'
+
 const router = Router()
 
 //router.get('/employees', getEmployees)
@@ -15,6 +12,7 @@ const router = Router()
 //router.delete('/employees', deleteEmployees)
 
 //router.post('/employees', createEmployees)
-router.post('/employees', makeExpressCallback(controller.createUseCase))
+
+router.post('/employees', makeExpressCallback(createUseCase))
 
 export default router;
